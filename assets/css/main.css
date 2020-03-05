@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Barlow-Bold';
+    src: url('../fontes/Barlow-Bold/Barlow-Bold.eot');
+    src: url('../fontes/Barlow-Bold/Barlow-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fontes/Barlow-Bold/Barlow-Bold.woff2') format('woff2'),
+    url('../fontes/Barlow-Bold/Barlow-Bold.woff') format('woff'),
+    url('../fontes/Barlow-Bold/Barlow-Bold.ttf') format('truetype'),
+    url('../fontes/Barlow-Bold/Barlow-Bold.svg#odstemplik') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo { margin: 20px 0 0 0; float: left; overflow: hidden; }
+.logo a { display: block; width: 180px; height: 27px; text-indent: -9999px; float: left; background-image: url('../images/o-povo-online.png'); background-repeat: no-repeat; background-size: 100%; }
+/* Menu principal */
+.bg-cl-blue-op{ background-color: #0079C1 !important; min-height: 65px !important; }
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+  }
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(255, 255, 255) !important;
+    border-color: rgb(255, 255, 255, 0.9) !important;
+}
