@@ -1,11 +1,22 @@
 @font-face {
-    font-family: 'Barlow-Bold';
-    src: url('../fontes/Barlow-Bold/Barlow-Bold.eot');
-    src: url('../fontes/Barlow-Bold/Barlow-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fontes/Barlow-Bold/Barlow-Bold.woff2') format('woff2'),
-    url('../fontes/Barlow-Bold/Barlow-Bold.woff') format('woff'),
-    url('../fontes/Barlow-Bold/Barlow-Bold.ttf') format('truetype'),
-    url('../fontes/Barlow-Bold/Barlow-Bold.svg#odstemplik') format('svg');
+    font-family: 'Oswald';
+    src: url('../fontes/Oswald-Regular.eot');
+    src: url('../fontes/Oswald-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fontes/Oswald-Regular.woff2') format('woff2'),
+        url('../fontes/Oswald-Regular.woff') format('woff'),
+        url('../fontes/Oswald-Regular.ttf') format('truetype'),
+        url('../fontes/Oswald-Regular.svg#Oswald-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    src: url('../fontes/PTSerif-Regular.eot');
+    src: url('../fontes/PTSerif-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fontes/PTSerif-Regular.woff2') format('woff2'),
+        url('../fontes/PTSerif-Regular.woff') format('woff'),
+        url('../fontes/PTSerif-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -19,9 +30,11 @@
 }
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
-  }
+    font-family: 'Oswald';
+}
 .navbar-light .navbar-nav .nav-link:hover {
     color: #fff;
+    font-family: 'Oswald';
 }
 .navbar-light .navbar-toggler {
     color: rgb(255, 255, 255) !important;
