@@ -40,3 +40,148 @@
     color: rgb(255, 255, 255) !important;
     border-color: rgb(255, 255, 255, 0.9) !important;
 }
+/* Esconde o input */
+input[type='file'] {
+    display: none
+}
+/* Aparência que terá o seletor de arquivo */
+.inputfile {
+    width: 165px; 
+    height: 40px; 
+    margin: 12px 0 42px 0; 
+    font-size: 20px; 
+    border: none; 
+    color:#fff !important; 
+    text-align: center;
+    font-family: 'Oswald'; 
+    background-color: #4a85af !important;
+    cursor: pointer;
+    padding: 0;
+}
+.logo-footer{
+    width: 131px;
+    height: 19px;
+    margin: 25px 0 25px 15px;
+}
+.txt-footer{
+    color: #fff;
+    font-size: 11px; 
+    font-family: 'Oswald';
+    margin: 25px 0 25px 79%;
+}
+.cl-geral{
+    padding-left: 112px; 
+    margin-top: 50px; 
+    margin-bottom: 100px;
+}
+.cl-coluna{
+   display: block;
+}
+
+/* titulos e textos */
+.cl-titulo-5{
+    font-size: 50px; 
+    font-family: 'Oswald'; 
+    color: #314163;
+}
+.cl-mt-5{
+    margin-top: 50px;
+} 
+.cl-titulo-3-5{
+    font-size: 35px; 
+    font-family: 'Oswald'; 
+    color: #314163;
+}
+.cl-mt-3-5{
+    margin-top: 35px;
+}
+.cl-titulo-2-2{
+    font-size: 22px; 
+    font-family: 'Oswald'; 
+    color: #314163;
+}
+.cl-mt-3{
+    margin-top: 30px;
+}
+.cl-titulo-1-9{
+    font-size: 19px; 
+    font-family: 'PT Serif'; 
+    color: #314163;
+}
+.cl-mt-1-0{
+    margin-top: 10px;
+}
+.cl-mt-20-20{
+    margin: 20px 0 20px 0;
+}
+.cl-mt-10-10{
+    margin: -10px 0 -10px 0;
+}
+
+/* Form */
+.cl-box-ex-form{
+    margin-top: 30px; 
+    background-color: #e8f8ff; 
+    padding: 15px; 
+    width: 490px; 
+    height: 827px;
+}
+.cl-box-in-form{
+    border: 1px solid#314163; 
+    padding: 0 15px 0 15px; 
+    width: 457px; 
+    height: 712px;
+}
+.cl-input-4{
+    background-color: transparent; 
+    border: 1px solid #314163; 
+    height: 33px; 
+    margin: 10px 0 10px 0;
+}
+.cl-input-1-73{
+    background-color: transparent; 
+    border: 1px solid #314163; 
+    width: 173px; 
+    margin: 10px 0 10px 0; 
+    height: 33px;
+}
+.cl-input-2-34{
+    background-color: transparent; 
+    border: 1px solid #314163; 
+    width: 234px; 
+    margin: 10px 0 10px 0; 
+    height: 33px;
+}
+.cl-btn-sb{
+    width: 165px; 
+    height: 40px; 
+    margin-left: 290px; 
+    margin-top: 32px; 
+    margin-bottom: 42px; 
+    font-size: 20px; 
+    border: none; 
+    color:#fff !important; 
+    font-family: 'Oswald'; 
+    background-color: #314163;
+}
+
+@media only screen and (max-width: 1024px) {
+    .cl-geral{
+        padding-left: 15px; 
+    }
+    .cl-coluna{
+        display: none;
+     }
+     .cl-box-ex-form{
+        width: auto; 
+    }
+    .cl-box-in-form{
+        width: auto; 
+    }
+    .cl-input-1-73{
+        width: 16.5rem; 
+    }
+    .cl-input-2-34{
+        width: 16.5rem; 
+    }
+}
