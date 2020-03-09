@@ -100,37 +100,37 @@
                       
                     <form style="margin-top: 20px;">
                         <div class="form-group">
-                          <label class="cl-titulo-2-2 cl-mt-10-10" for="exampleInputEmail1">Nome</label>
-                          <input type="email" class="form-control cl-input-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                          <label class="cl-titulo-2-2 cl-mt-10-10" for="inputNome">Nome</label>
+                          <input type="text" class="form-control cl-input-4" id="inputNome" aria-describedby="nome" placeholder="">
 
-                          <label for="exampleInputEmail1" class="cl-titulo-2-2 cl-mt-10-10">E-mail</label>
-                          <input type="email" class="form-control cl-input-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                          <label for="inputEmail" class="cl-titulo-2-2 cl-mt-10-10">E-mail</label>
+                          <input type="email" class="form-control cl-input-4" id="inputEmail" aria-describedby="email" placeholder="">
 
-                          <label for="exampleInputEmail1" class="cl-titulo-2-2 cl-mt-10-10">Cep</label>
-                          <input type="email" class="form-control cl-input-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                          <label for="inputCep" class="cl-titulo-2-2 cl-mt-10-10">Cep</label>
+                          <input type="text" class="form-control cl-input-4" id="inputCep" aria-describedby="cep" placeholder="" onblur="pesquisacep(this.value);">
 
-                          <label for="exampleInputEmail1" class="cl-titulo-2-2 cl-mt-10-10">Endereço</label>
-                          <input type="email" class="form-control cl-input-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                          <label for="inputEndereco" class="cl-titulo-2-2 cl-mt-10-10">Endereço</label>
+                          <input type="text" class="form-control cl-input-4" id="inputEndereco" aria-describedby="endereco" placeholder="">
                           
                           <div class="form-row">
                             <div class="col-sm-12 col-lg-6">
-                                <label for="exampleInputEmail1" class="cl-titulo-2-2 cl-mt-10-10">Número</label>
-                                <input type="email" class="form-control cl-input-1-73" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                                <label for="inputNumero" class="cl-titulo-2-2 cl-mt-10-10">Número</label>
+                                <input type="text" class="form-control cl-input-1-73" id="inputNumero" aria-describedby="numero" placeholder="">
                             </div>
                             <div class="col-sm-12 col-lg-6">
-                                <label for="exampleInputEmail1" class="cl-titulo-2-2 cl-mt-10-10">Bairro</label>
-                                <input type="email" class="form-control cl-input-2-34" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                                <label for="inputBairro" class="cl-titulo-2-2 cl-mt-10-10">Bairro</label>
+                                <input type="text" class="form-control cl-input-2-34" id="inputBairro" aria-describedby="bairro" placeholder="">
                             </div>
                           </div>
 
                           <div class="form-row">
                             <div class="col-sm-12 col-lg-6">
-                                <label for="exampleInputEmail1" class="cl-titulo-2-2 cl-mt-10-10">Cidade</label>
-                                <input type="email" class="form-control cl-input-1-73" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                                <label for="inputCidade" class="cl-titulo-2-2 cl-mt-10-10">Cidade</label>
+                                <input type="text" class="form-control cl-input-1-73" id="inputCidade" aria-describedby="cidade" placeholder="">
                             </div>
                             <div class="col-sm-12 col-lg-6">
-                                <label for="exampleInputEmail1" class="cl-titulo-2-2 cl-mt-10-10">Estado</label>
-                                <input type="email" class="form-control cl-input-2-34" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                                <label for="inputEstado" class="cl-titulo-2-2 cl-mt-10-10">Estado</label>
+                                <input type="email" class="form-control cl-input-2-34" id="inputEstado" aria-describedby="Estado" placeholder="">
                             </div>
                           </div>    
                         </div>
@@ -139,7 +139,7 @@
                           <div class="row">
                             <div class="col-sm-12 col-md-12 col-lg-6">
                                 <label for="inputFile" class="inputfile">Anexar currículo</label>
-                                <input type="file" class="" id="inputFile" >
+                                <input type="file" id="inputFile" >
                             </div>
                       
                             <div class="col-sm-12 col-md-12 col-lg-6">
@@ -149,7 +149,7 @@
                             </div>
                           </div>
                       </div>
-                          <button class="cl-btn-sb">Enviar currículo</button>
+                          <button class="cl-btn-sb" id="btnEnviar">Enviar currículo</button>
                     </form>
                   </div>
                 </div>
@@ -189,11 +189,9 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+    <!-- Validacao form -->
+    <script src="./assets/js/main.js"></script>
     <!-- production version, optimized for size and speed -->
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     
-    <script src="./assets/js/app.js"></script>
-   
   </body>
 </html>
