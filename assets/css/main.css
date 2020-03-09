@@ -1,241 +1,241 @@
-@font-face {
-    font-family: 'Oswald';
-    src: url('../fontes/Oswald-Regular.eot');
-    src: url('../fontes/Oswald-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fontes/Oswald-Regular.woff2') format('woff2'),
-        url('../fontes/Oswald-Regular.woff') format('woff'),
-        url('../fontes/Oswald-Regular.ttf') format('truetype'),
-        url('../fontes/Oswald-Regular.svg#Oswald-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+    @font-face {
+        font-family: 'Oswald';
+        src: url('../fontes/Oswald-Regular.eot');
+        src: url('../fontes/Oswald-Regular.eot?#iefix') format('embedded-opentype'),
+            url('../fontes/Oswald-Regular.woff2') format('woff2'),
+            url('../fontes/Oswald-Regular.woff') format('woff'),
+            url('../fontes/Oswald-Regular.ttf') format('truetype'),
+            url('../fontes/Oswald-Regular.svg#Oswald-Regular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
 
-@font-face {
-    font-family: 'PT Serif';
-    src: url('../fontes/PTSerif-Regular.eot');
-    src: url('../fontes/PTSerif-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fontes/PTSerif-Regular.woff2') format('woff2'),
-        url('../fontes/PTSerif-Regular.woff') format('woff'),
-        url('../fontes/PTSerif-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+    @font-face {
+        font-family: 'PT Serif';
+        src: url('../fontes/PTSerif-Regular.eot');
+        src: url('../fontes/PTSerif-Regular.eot?#iefix') format('embedded-opentype'),
+            url('../fontes/PTSerif-Regular.woff2') format('woff2'),
+            url('../fontes/PTSerif-Regular.woff') format('woff'),
+            url('../fontes/PTSerif-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
 
-.logo { margin: 20px 0 0 0; float: left; overflow: hidden; }
-.logo a { display: block; width: 180px; height: 27px; text-indent: -9999px; float: left; background-image: url('../images/o-povo-online.png'); background-repeat: no-repeat; background-size: 100%; }
-/* Menu principal */
-.bg-cl-blue-op{ background-color: #0079C1 !important; min-height: 65px !important; }
-.navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-.navbar-light .navbar-nav .nav-link {
-    color: #fff;
-    font-family: 'Oswald';
-}
-.navbar-light .navbar-nav .nav-link:hover {
-    color: #fff;
-    font-family: 'Oswald';
-}
-.navbar-light .navbar-toggler {
-    color: rgb(255, 255, 255) !important;
-    border-color: rgb(255, 255, 255, 0.9) !important;
-}
-/* Esconde o input */
-input[type='file'] {
-    display: none
-}
-/* Aparência que terá o seletor de arquivo */
-.inputfile {
-    width: 165px; 
-    height: 40px; 
-    margin: 12px 0 42px 0; 
-    font-size: 20px; 
-    border: none; 
-    color:#fff !important; 
-    text-align: center;
-    font-family: 'Oswald'; 
-    background-color: #4a85af !important;
-    cursor: pointer;
-    padding: 0;
-}
-.logo-footer{
-    width: 131px;
-    margin: 25px 0 0 15px;
-    float: left;
-    overflow: hidden;
-    min-width: initial;
-}
-.txt-footer{
-    color: #fff;
-    font-size: 11px; 
-    font-family: 'Oswald';
-    line-height: 39px;
-    display: block;
-    float: right;
-    margin: 15px 15px 0 0;
-}
-.cl-geral{
-    padding-left: 112px; 
-    margin-top: 50px; 
-    margin-bottom: 100px;
-}
-.cl-coluna{
-   display: block;
-}
-
-/* titulos e textos */
-.cl-titulo-5{
-    font-size: 50px; 
-    font-family: 'Oswald'; 
-    color: #314163;
-}
-.cl-mt-5{
-    margin-top: 50px;
-} 
-.cl-mt-4-5{
-    margin-top: 45px;
-}
-.cl-titulo-3-5{
-    font-size: 35px; 
-    font-family: 'Oswald'; 
-    color: #314163;
-}
-.cl-mt-3-5{
-    margin-top: 35px;
-}
-.cl-titulo-2-2{
-    font-size: 22px; 
-    font-family: 'Oswald'; 
-    color: #314163;
-}
-.cl-mt-3{
-    margin-top: 30px;
-}
-.cl-titulo-1-9{
-    font-size: 19px; 
-    font-family: 'PT Serif'; 
-    color: #314163;
-}
-.cl-mt-1-0{
-    margin-top: 10px;
-}
-.cl-mt-20-20{
-    margin: 20px 0 20px 0;
-}
-.cl-mt-10-10{
-    margin: -10px 0 -10px 0;
-}
-
-/* Form */
-.cl-box-ex-form{
-    margin-top: 30px; 
-    background-color: #e8f8ff; 
-    padding: 15px; 
-    width: 490px; 
-    height: 827px;
-}
-.cl-box-in-form{
-    border: 1px solid#314163; 
-    padding: 0 15px 0 15px; 
-    width: 457px; 
-    height: 712px;
-}
-.cl-input-4{
-    background-color: transparent; 
-    border: 1px solid #314163; 
-    height: 33px; 
-    margin: 10px 0 10px 0;
-}
-.cl-input-1-73{
-    background-color: transparent; 
-    border: 1px solid #314163;  
-    margin: 10px 0 10px 0; 
-    height: 33px;
-}
-.cl-input-2-34{
-    background-color: transparent; 
-    border: 1px solid #314163; 
-    margin: 10px 0 10px 0; 
-    height: 33px;
-}
-.cl-btn-sb{
-    width: 165px; 
-    height: 40px; 
-    margin-left: 290px; 
-    margin-top: 32px; 
-    margin-bottom: 42px; 
-    font-size: 20px; 
-    border: none; 
-    color:#fff !important; 
-    font-family: 'Oswald'; 
-    background-color: #314163;
-}
-.cl-inf-txt-file{
-     width: 190px;
-     font-size: 13px; 
-     font-family: 'Oswald'; 
-     color: #314163; 
-     margin: 9px 0 0 -50px;
-}
-
-@media only screen and (max-width: 1024px) {
+    .logo { margin: 20px 0 0 0; float: left; overflow: hidden; }
+    .logo a { display: block; width: 180px; height: 27px; text-indent: -9999px; float: left; background-image: url('../images/o-povo-online.png'); background-repeat: no-repeat; background-size: 100%; }
+    /* Menu principal */
+    .bg-cl-blue-op{ background-color: #0079C1 !important; min-height: 65px !important; }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+        font-family: 'Oswald';
+    }
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #fff;
+        font-family: 'Oswald';
+    }
+    .navbar-light .navbar-toggler {
+        color: rgb(255, 255, 255) !important;
+        border-color: rgb(255, 255, 255, 0.9) !important;
+    }
+    /* Esconde o input */
+    input[type='file'] {
+        display: none
+    }
+    /* Aparência que terá o seletor de arquivo */
+    .inputfile {
+        width: 165px; 
+        height: 40px; 
+        margin: 12px 0 42px 0; 
+        font-size: 20px; 
+        border: none; 
+        color:#fff !important; 
+        text-align: center;
+        font-family: 'Oswald'; 
+        background-color: #4a85af !important;
+        cursor: pointer;
+        padding: 0;
+    }
+    .logo-footer{
+        width: 131px;
+        margin: 25px 0 0 15px;
+        float: left;
+        overflow: hidden;
+        min-width: initial;
+    }
+    .txt-footer{
+        color: #fff;
+        font-size: 11px; 
+        font-family: 'Oswald';
+        line-height: 39px;
+        display: block;
+        float: right;
+        margin: 15px 15px 0 0;
+    }
     .cl-geral{
-        padding-left: 80px; 
+        padding-left: 112px; 
         margin-top: 50px; 
         margin-bottom: 100px;
     }
     .cl-coluna{
-        margin-left:-100px;
+    display: block;
     }
-    .cl-btn-sb{ 
-        margin-left: 220px; 
-    }
-    .cl-inf-txt-file{
-        margin: 9px 0 0 -15px;
-   }
-}
 
-@media only screen and (max-width: 960px) {
-    .cl-geral{
-        padding-left: 15px; 
+    /* titulos e textos */
+    .cl-titulo-5{
+        font-size: 50px; 
+        font-family: 'Oswald'; 
+        color: #314163;
     }
-    .cl-coluna{
-        display: none;
+    .cl-mt-5{
+        margin-top: 50px;
+    } 
+    .cl-mt-4-5{
+        margin-top: 45px;
     }
-     .cl-box-ex-form{
-        width: auto; 
-        height: auto;
+    .cl-titulo-3-5{
+        font-size: 35px; 
+        font-family: 'Oswald'; 
+        color: #314163;
+    }
+    .cl-mt-3-5{
+        margin-top: 35px;
+    }
+    .cl-titulo-2-2{
+        font-size: 22px; 
+        font-family: 'Oswald'; 
+        color: #314163;
+    }
+    .cl-mt-3{
+        margin-top: 30px;
+    }
+    .cl-titulo-1-9{
+        font-size: 19px; 
+        font-family: 'PT Serif'; 
+        color: #314163;
+    }
+    .cl-mt-1-0{
+        margin-top: 10px;
+    }
+    .cl-mt-20-20{
+        margin: 20px 0 20px 0;
+    }
+    .cl-mt-10-10{
+        margin: -10px 0 -10px 0;
+    }
+
+    /* Form */
+    .cl-box-ex-form{
+        margin-top: 30px; 
+        background-color: #e8f8ff; 
+        padding: 15px; 
+        width: 490px; 
+        height: 827px;
     }
     .cl-box-in-form{
-        width: auto; 
-        height: auto;
+        border: 1px solid#314163; 
+        padding: 0 15px 0 15px; 
+        width: 457px; 
+        height: 712px;
+    }
+    .cl-input-4{
+        background-color: transparent; 
+        border: 1px solid #314163; 
+        height: 33px; 
+        margin: 10px 0 10px 0;
+    }
+    .cl-input-1-73{
+        background-color: transparent; 
+        border: 1px solid #314163;  
+        margin: 10px 0 10px 0; 
+        height: 33px;
+    }
+    .cl-input-2-34{
+        background-color: transparent; 
+        border: 1px solid #314163; 
+        margin: 10px 0 10px 0; 
+        height: 33px;
     }
     .cl-btn-sb{
-        width: 100%; 
+        width: 165px; 
         height: 40px; 
-        margin-left:0; 
+        margin-left: 290px; 
         margin-top: 32px; 
         margin-bottom: 42px; 
-        font-size: 20px;
-    }
-    .inputfile {
-        width: 100%; 
-        height: 40px; 
-        margin: 12px 0 42px 0; 
         font-size: 20px; 
+        border: none; 
+        color:#fff !important; 
+        font-family: 'Oswald'; 
+        background-color: #314163;
     }
-    /*.cl-inf-txt-file{
-        width: 100%; 
-        margin: -20px 0 20px 0;
-   }*/
-  
-}
-@media only screen and (max-width: 640px) {
-    .logo-footer{
-        float: none;
+    .cl-inf-txt-file{
+        width: 190px;
+        font-size: 13px; 
+        font-family: 'Oswald'; 
+        color: #314163; 
+        margin: 9px 0 0 -50px;
     }
-    .txt-footer{
-        float: none;
-        margin: 0 0 0 15px;
+
+    @media only screen and (max-width: 1024px) {
+        .cl-geral{
+            padding-left: 80px; 
+            margin-top: 50px; 
+            margin-bottom: 100px;
+        }
+        .cl-coluna{
+            margin-left:-100px;
+        }
+        .cl-btn-sb{ 
+            margin-left: 220px; 
+        }
+        .cl-inf-txt-file{
+            margin: 9px 0 0 -15px;
     }
-}
+    }
+
+    @media only screen and (max-width: 960px) {
+        .cl-geral{
+            padding-left: 15px; 
+        }
+        .cl-coluna{
+            display: none;
+        }
+        .cl-box-ex-form{
+            width: auto; 
+            height: auto;
+        }
+        .cl-box-in-form{
+            width: auto; 
+            height: auto;
+        }
+        .cl-btn-sb{
+            width: 100%; 
+            height: 40px; 
+            margin-left:0; 
+            margin-top: 32px; 
+            margin-bottom: 42px; 
+            font-size: 20px;
+        }
+        .inputfile {
+            width: 100%; 
+            height: 40px; 
+            margin: 12px 0 42px 0; 
+            font-size: 20px; 
+        }
+        /*.cl-inf-txt-file{
+            width: 100%; 
+            margin: -20px 0 20px 0;
+    }*/
+    
+    }
+    @media only screen and (max-width: 640px) {
+        .logo-footer{
+            float: none;
+        }
+        .txt-footer{
+            float: none;
+            margin: 0 0 0 15px;
+        }
+    }
