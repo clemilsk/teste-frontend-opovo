@@ -178,6 +178,23 @@ input[type='file'] {
      margin: 9px 0 0 -50px;
 }
 
+@media only screen and (max-width: 1024px) {
+    .cl-geral{
+        padding-left: 80px; 
+        margin-top: 50px; 
+        margin-bottom: 100px;
+    }
+    .cl-coluna{
+        margin-left:-100px;
+    }
+    .cl-btn-sb{ 
+        margin-left: 220px; 
+    }
+    .cl-inf-txt-file{
+        margin: 9px 0 0 -15px;
+   }
+}
+
 @media only screen and (max-width: 960px) {
     .cl-geral{
         padding-left: 15px; 
@@ -207,10 +224,10 @@ input[type='file'] {
         margin: 12px 0 42px 0; 
         font-size: 20px; 
     }
-    .cl-inf-txt-file{
+    /*.cl-inf-txt-file{
         width: 100%; 
         margin: -20px 0 20px 0;
-   }
+   }*/
   
 }
 @media only screen and (max-width: 640px) {
